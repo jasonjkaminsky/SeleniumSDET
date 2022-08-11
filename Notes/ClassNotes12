@@ -1,0 +1,63 @@
+Selenium Class 12
+
+POM - Page Object Model
+is a design pattern which allows us to enhance the maintenance and reduce code duplication
+
+Advantages of POM:
+1. Code reusability
+2. Code maintainability
+3. Object repository
+4. Readability
+
+How to Implement:
+1. POM without PageFactory
+2. POM with PageFactory
+
+PageFactory is a class which allows us to interact with stored elements in each class
+
+HW
+open new browser
+open a new tab
+navigate to a different URL on a new tab -- use window handles
+
+HW:
+TC 1: HRMS blank password validation
+Navigate to “http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login”
+Enter valid username and leave password field empty
+Click on login button
+Verify error message with text “Password cannot be empty” is displayed
+Take a screenshot before quitting the browser
+
+
+TC 2: HRMS blank username and password validation
+Navigate to “http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login”
+Leave username and password field empty
+Click on login button
+Verify error message with text “Username cannot be empty” is displayed
+Take a screenshot before quitting the browser
+
+
+TC 2: HRMS invalid credentials validation
+Navigate to “http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login”
+Enter valid username and wrong password
+Click on login button
+Verify error message with text “Invalid credentials” is displayed
+Take a screenshot before quitting the browser
+
+TC:4 --> do on selenium project
+Go to http://www.uitestpractice.com/
+interact with drag and drop, iframe, double click
+click on home
+delete one user from the table
+go to the next link
+click on the ajax link and wait for the text
+verify that the text is displayed
+go to Form
+and fill out everything
+go to widgets
+upload any file and verify it is uploaded
+go to actions and perform all the necessary actions
+go to SwitchTo
+work with alerts and frames
+go to select
+perform actions on all dropdowns
